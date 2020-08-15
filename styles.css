@@ -59,9 +59,8 @@ ul>img{
     float: right;
 }
 .about{
-     margin-left: 30%; 
-    /* padding:0px 16px; */
-    height:1000px;
+    margin-left: 30%; 
+    padding:0px 16px;
     color: white;
     font-size: 20px;
     line-height: 50px;
@@ -70,7 +69,6 @@ ul>img{
     text-align: center;
     font-style: italic;
     color: black;
-
 }
 .about h1:hover{
     color: white;
@@ -87,12 +85,10 @@ em a{
     margin-left: 30%;
     color: white;
     font-size: 20px;
-    border: 2px solid black;
 }
 .project h1{
     color: black;
     font-style: italic;
-    text-align: center;
 }
 .project p{
     text-align: left;
@@ -118,6 +114,18 @@ em a{
 }
 .project span strong:hover{
     color: indigo;
+}
+.project-1{
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+}
+.project-2{
+    padding: 10px;
+    margin: 10px;
+}
+.project-3{
+    padding: 0px;
+    margin: 10px;
 }
 
 
