@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     body {
-      background-color: yellowgreen;
+      background-color: black;
     }
   }
 body {
@@ -38,8 +38,7 @@ li a:hover:not(.active) {
 }
 ul>img{
     border-radius: 50%;
-}
-  
+} 
 *{
     background-color:indigo;
 }
@@ -217,7 +216,6 @@ section{
     text-align: center;
 }
 .one{
-    /* margin-left: 30%; */
     padding: 20px;
     margin: 20px;
     display: flex;
