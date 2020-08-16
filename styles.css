@@ -196,13 +196,18 @@ section{
 }
 .box .skill .graph .percent{
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
     font-weight: bold;
 }
+.box .skill .name{
+    position: absolute;
+    bottom: -30px;
+}
+
 
 
 
