@@ -1,25 +1,12 @@
-/* .navigation{
-    width: 200px;
-}
-.navigation a{
-    background-color: blue;
-    color: black;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 30px;
-}
-.navigation a:hover{
-    background-color: chartreuse;    
-}
-.navigation a.active{
-    background-color: crimson;
-    color: white;
-} */
+@media screen and (min-width: 768px) {
+    body {
+      background-color: yellowgreen;
+    }
+  }
 body {
     margin: 0;
   }
-  
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,20 +38,29 @@ li a:hover:not(.active) {
 ul>img{
     border-radius: 50%;
 }
+  
 *{
     background-color:indigo;
 }
 .start-image{
     top: auto;
-    float: right;
+    margin-left: 20%;
+}
+.start-image img{
+    height: 500px;
 }
 .about{
-     margin-left: 30%; 
-    /* padding:0px 16px; */
-    height:1000px;
+    margin-left: 30%; 
     color: white;
     font-size: 20px;
     line-height: 50px;
+}
+.about h1{
+    text-align: center;
+    color: black;
+}
+.about h1:hover{
+    color: white;
 }
 strong a{
     color: black;
@@ -74,4 +70,176 @@ em a{
     color: black;
     text-decoration: none;
 }
+
+.project{
+    margin-left: 30%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.project h1{
+    color: black;
+    text-align: center;
+}
+
+.project-1{
+    padding: 11px;
+}
+
+.project p{
+    text-align: left;
+    line-height: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.project img{
+    float: left;
+    padding: 8px;
+}
+
+.project span{
+    color: black;
+}
+
+.project span strong{
+    text-align: left;
+    float: right;
+    padding: 10px;
+    padding-top: 10px;
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+
+.project span strong:hover{
+    color: indigo;
+}
+.background{
+    margin-left: 30%;
+    padding: 50px;
+}
+.background h1{
+    text-align: center;
+}
+.background p{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.background img{
+    border-radius: 80%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#skills{
+    margin-left: 30%;
+}
+#skills h1{
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg,#0039fe,#000105);
+}
+.box{
+    position: absolute;
+    top: 565%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    display: flex;
+}
+.box .skill{
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.box .skill .graph{
+    position: absolute;
+    width: 40px;
+    background: rgba(0, 0, 0, 1);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box .skill .graph:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    background: linear-gradient(0deg, #003ba5, #009ffe);
+}
+.box .skill .graph:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+}
+.box .skill .graph .percent{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.box .skill .name{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: #001e8a;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+#github{
+    margin-left: 30%;
+}
+#github h1{
+    text-align: center;
+}
+.one{
+    /* margin-left: 30%; */
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+    text-align: center;
+}
+.one a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.one a:hover{
+    background-color: chartreuse;
+}
+
+
+
 
