@@ -56,18 +56,19 @@ ul>img{
 }
 .start-image{
     top: auto;
-    float: right;
+    margin-left: 20%;
+}
+.start-image img{
+    height: 500px;
 }
 .about{
     margin-left: 30%; 
-    padding:0px 16px;
     color: white;
     font-size: 20px;
     line-height: 50px;
 }
 .about h1{
     text-align: center;
-    font-style: italic;
     color: black;
 }
 .about h1:hover{
@@ -85,10 +86,11 @@ em a{
     margin-left: 30%;
     color: white;
     font-size: 20px;
+    padding: 10px;
 }
 .project h1{
     color: black;
-    font-style: italic;
+    text-align: center;
 }
 .project p{
     text-align: left;
@@ -115,21 +117,12 @@ em a{
 .project span strong:hover{
     color: indigo;
 }
-.project-1{
-    padding: 0px 10px 0px 10px;
-    margin: 10px;
-}
-.project-2{
-    padding: 10px;
-    margin: 10px;
-}
-.project-3{
-    padding: 0px;
-    margin: 10px;
-}
 .background{
     margin-left: 30%;
     padding: 50px;
+}
+.background h1{
+    text-align: center;
 }
 .background p{
     color: white;
@@ -146,6 +139,10 @@ em a{
 #skills{
     margin-left: 30%;
 }
+#skills h1{
+    text-align: center;
+    font-size: 40px;
+}
 section{
     width: 100%;
     height: 100vh;
@@ -153,11 +150,11 @@ section{
 }
 .box{
     position: absolute;
-    top: 460%;
-    left: 50%;
+    top: 550%;
+    left: 65%;
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     background: transparent;
     border-bottom: 1px solid #000;
     border-left: 1px solid #000;
@@ -213,6 +210,36 @@ section{
     background: #001e8a;
     padding: 2px 6px;
     border-radius: 4px;
+}
+#github{
+    margin-left: 30%;
+}
+#github h1{
+    text-align: center;
+}
+.one{
+    /* margin-left: 30%; */
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+    text-align: center;
+}
+.one a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.one a:hover{
+    background-color: chartreuse;
 }
 
 
