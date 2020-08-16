@@ -127,5 +127,21 @@ em a{
     padding: 0px;
     margin: 10px;
 }
+.background{
+    margin-left: 30%;
+    padding: 50px;
+}
+.background p{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.background img{
+    border-radius: 80%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
